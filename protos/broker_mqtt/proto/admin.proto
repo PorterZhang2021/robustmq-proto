@@ -368,7 +368,7 @@ message ListFlappingDetectRequest {
 }
 
 message ListFlappingDetectReply {
-  repeated ListFlappingDetectRaw list_flapping_detect_raw = 1;
+  ListFlappingDetectRaw list_flapping_detect_raw = 1;
 }
 
 message ListFlappingDetectRaw {
